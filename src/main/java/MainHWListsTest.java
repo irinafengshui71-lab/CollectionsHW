@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class MainHWListsTest {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         ArrayList<Double> listD = new ArrayList<>();
         listD.add(4.9);
         listD.add(1.5);
@@ -20,7 +20,7 @@ public class MainHWListsTest {
         System.out.println("After sort: ");
         System.out.println(listD);
 
-        LinkedList<Integer>listInt = new LinkedList<>();
+        LinkedList<Integer> listInt = new LinkedList<>();
         listInt.add(30);
         listInt.add(10);
         listInt.add(40);
@@ -33,6 +33,13 @@ public class MainHWListsTest {
             }
         });
         System.out.println("New sort: ");
+        System.out.println(listInt);
+
+        HWComparatorDoubleReverse comp1 = new HWComparatorDoubleReverse();
+        listD.sort(comp1);
+        System.out.println(listD);
+        HWComparatorIntegersReverse comp2 = new HWComparatorIntegersReverse();
+        listInt.sort(comp2);
         System.out.println(listInt);
     }
 }

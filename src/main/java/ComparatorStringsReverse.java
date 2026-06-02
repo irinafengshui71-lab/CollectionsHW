@@ -11,28 +11,9 @@ public class ComparatorStringsReverse implements Comparator<String>{
 /*
 HOMEWORK #11
 
-
-
-
-
-
-
 1. in main:
 ArrayList<Double> listD
 LinkedList<Integer> listInt
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 2.Advanced:
