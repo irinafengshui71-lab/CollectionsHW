@@ -42,21 +42,9 @@ HomeWork#12
 sort strings use corparator
 
 
-
-
-
-
-
-
-
 2.ComparatorStringsByABC
 from sortings strings from "A" to "Z"
 like list.sort(null);
-
-
-
-
-
 
 
 
@@ -70,6 +58,38 @@ like list.sort(null);
        add objects to list
        and print use method :
        printBooksList()
+
+
+
+
+HW #13
+
+HOMEWORK #13
+
+1.ComparatorBooksByPagesReverse (100->0)
+  ComparatorBooksByPrice   (0.0 -> 100.0)
+  ComparatorBooksByTitle (A-Z)
+  ComparatorBooksByTitleReverse (Z-A)
+
+
+
+
+
+
+
+
+
+
+
+
+
+  2.Advanced *****
+  in comperTo() class Book
+ sort by author (A-Z)
+
+ in books with same author should be by title
+
+
 
 
  */

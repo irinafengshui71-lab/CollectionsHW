@@ -14,7 +14,7 @@ public class MainPersonsListHW {
         list.add("cat");
         System.out.println("Before sort: ");
         System.out.println(list);
-        Collections.sort(list, new ComparatorSrtingsByLangthReverseHW());
+        Collections.sort(list, new ComparatorStringsByLengthReverseHW());
         System.out.println("After sort: ");
         System.out.println(list);
 
